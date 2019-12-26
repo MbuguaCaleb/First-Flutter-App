@@ -57,6 +57,7 @@ Every widget has got a build method which is similar to render in react.
 
 
 ```
+
 **Overrriing**
 
 ```
@@ -70,6 +71,7 @@ In any object-oriented programming language, Overriding is a feature that allows
 Immutable state that can NOT be changed during runtime.
 
 ```
+
 **Stateful Widgets**
 
 ```
@@ -81,6 +83,52 @@ Mutable state that can  be redrawn on the screen mutiple times.
 
 ```
 (a)flutter create .
+
+(b)Build method is very crucial in dart because it is where everything is rendered.
+
+
+```
+
+**MaterialAppClass**
+
+```
+A convenience widget that wraps a number of widgets that are commonly required for material design applications.
+
+It employs the scaffold widget.
+
+From the scaffold you may now mount various types of widgets.
+
+
+```
+
+**Scaffold**
+
+```
+It is a high level widget where you can have mutiple lower level widgets inside.
+Text widget example:
+
+Widget build(BuildContext context) {
+    return MaterialApp(
+        home: Text('Hello World',
+            style: TextStyle(fontSize: 30.5,
+            color: Colors.green[400])));
+  }
+
+You cannot assign texts directly..You should assingn texts from within the widget.
+
+
+Its important to note the properties that fall into the scaffold and those that
+do not.(example theme does not fall into the scaffold .)
+
+
+```
+
+**Widget Tree**
+
+```
+Flutter is basically a widget tree and that is how components are added
+into your user interface.
+
 
 
 ```
