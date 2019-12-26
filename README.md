@@ -129,6 +129,46 @@ do not.(example theme does not fall into the scaffold .)
 Flutter is basically a widget tree and that is how components are added
 into your user interface.
 
+```
 
+**Dart Packages**
+
+```
+Dart has its own packages ..example English words..
+
+(flutter pub get)
+
+The command for generating dependencies if they do not automatically self update.
+
+Just like javascript there are keywords while initializing variables.These
+are
+
+(a)final->when you cannot reasign the variable name...but the value can change.
+more like let in Javascript
+
+(b)const--for static values..this does not allow reasignment.
+
+```
+
+**WordPairModule**
+
+```
+Has some modules that can be used with it via worpair.aspascal..etc
+
+At the home is where we call all our widgets..whether scaffold or customwidgets.
+
+
+Item builder is used to fetch dynamically from the wordpair generator..
+
+and has a return value which is a list style..[Each of those items returned is a List Style.]
+You can make custom widgets in flutter.
+
+```
+
+**My Disvery**
+
+```
+Flutter is more like similar to vuejs
+And a flutter application is a bunch of widgets.
 
 ```
