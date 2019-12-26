@@ -181,5 +181,17 @@ A set is a collection of objects whereby each object can only appear once.
 ```
 Include onTap...when you tap on a specific widget component.
 
+```
+
+**Navigator Class**
+
+```
+It is used to manage routes in flutter..
+
+Has methods like push and pop.
+
+A builder method must have a return value..eg listview..{
+    or what it returns since it is dynamic.
+}
 
 ```
