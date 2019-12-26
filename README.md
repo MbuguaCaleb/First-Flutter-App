@@ -171,4 +171,15 @@ You can make custom widgets in flutter.
 Flutter is more like similar to vuejs
 And a flutter application is a bunch of widgets.
 
+A set is a collection of objects whereby each object can only appear once.
+
+
+```
+
+**Dart events**
+
+```
+Include onTap...when you tap on a specific widget component.
+
+
 ```
